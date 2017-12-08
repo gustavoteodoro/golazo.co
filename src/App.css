@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  display: flex;
 }
 
 .App-logo {
@@ -8,14 +9,27 @@
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
+  background-color: #fff;
+  width: 175px;
+  height: 100vh;
+  box-sizing: border-box;
   padding: 20px;
-  color: white;
+  color: black;
+}
+
+.App-content {
+  width: calc(100vw - 175px);
+  background: url('/img/golazo-cover.jpg');
+  background-size: cover;
 }
 
 .App-title {
   font-size: 1.5em;
+}
+
+.App-title svg{
+  width: 93px;
+  height: 93px;
 }
 
 .App-intro {
